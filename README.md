@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ayasha95/BeasiswaBersama/main/public/logo-beasiswa.png" alt="Beasiswa Bersama" width="120">
-</p>
-
-<p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Laravel-10.x-red"></a>
   <a href="#"><img src="https://img.shields.io/badge/license-MIT-green"></a>
 </p>
