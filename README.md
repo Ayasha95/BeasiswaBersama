@@ -1,47 +1,88 @@
-# Sitem Penjualan dengan Laravel 9
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Ayasha95/BeasiswaBersama/main/public/logo-beasiswa.png" alt="Beasiswa Bersama" width="120">
+</p>
 
-## Tutorial
-1. Tutorial CRUD Laravel 9 (Sistem Penjualan)
-   <https://youtu.be/L0H330nUF_s>
-2. Tutorial Membuat Form Registrasi Laravel 9 (Sistem Penjualan)
-   <https://youtu.be/WqKPmKdicQo>
-3. Tutorial Membuat Form Login Laravel 9 (Sistem Penjualan)
-   <https://youtu.be/kn4il_tp9Vc>
-4. Tutorial Relasi Tabel Laravel 9 (Sistem Penjualan)
-   <https://youtu.be/bW4DS4ipLPw>
-5. Penerapan Level User Login Laravel 9 (Sistem Penjualan)
-   <https://youtu.be/-nLEq8Ilf8g>
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/Laravel-10.x-red"></a>
+  <a href="#"><img src="https://img.shields.io/badge/license-MIT-green"></a>
+</p>
 
-## Installation
-1. Clone Repo
-    ```console
-    git clone https://github.com/GalehLudi/Penjualan.git
-    ```
+# Beasiswa Bersama
 
-2. Run
-   ```console
-   php artisan key:generate
-   ```
-   ```console
-   php artisan migrate
-   or
-   php artisan migrate:refresh
-   ```
-   ```console
-   php artisan db:seed
-   ```
+Beasiswa Bersama adalah aplikasi web berbasis Laravel untuk pendaftaran dan manajemen beasiswa mahasiswa. Sistem ini mendukung beberapa jenis beasiswa, proses seleksi terintegrasi, serta dashboard statistik untuk admin dan peserta.
 
-3. Run server
-   ```console
-   php artisan serve
-   ```
+---
 
-## Third Party
-### Front End
-| Name       | Link                                          |
-| ---------- | --------------------------------------------- |
-| SB Admin 2 | <https://startbootstrap.com/theme/sb-admin-2> |
+## ✨ Fitur Utama
 
-## Social Media
-[Instagram](https://instagram.com/galehludi)
-[Github](https://github.com/GalehLudi)
+- **Registrasi & Login** untuk admin dan peserta (mahasiswa)
+- **Formulir Pendaftaran Online** (data diri, orang tua, upload dokumen)
+- **Multi Beasiswa**: Mandiri, Prestasi, Seni, Cendekia
+- **Manajemen Data & Seleksi** oleh admin
+- **Upload & Download Dokumen**
+- **Status & Timeline Pendaftaran**
+- **Dashboard Statistik**
+- **Cetak Bukti Pendaftaran**
+- **Role-based Access**
+
+---
+
+## 📚 Belajar & Dokumentasi
+
+- Dokumentasi kode dan video tutorial Laravel: [Laravel Docs](https://laravel.com/docs)
+- Panduan penggunaan aplikasi: [Wiki Beasiswa Bersama](#)
+
+---
+
+## ⚙️ Instalasi
+
+```bash
+git clone https://github.com/Ayasha95/BeasiswaBersama.git
+cd BeasiswaBersama
+composer install
+cp .env.example .env
+php artisan key:generate
+# Edit .env, lalu:
+php artisan migrate --seed
+php artisan serve
+```
+
+Akses aplikasi di [http://localhost:8000](http://localhost:8000)
+
+---
+
+## 👤 Akun Demo
+
+| Role    | Email                  | Password  |
+|---------|------------------------|-----------|
+| Admin   | admin@beasiswa.com     | password  |
+| Peserta | user@beasiswa.com      | password  |
+
+_(Atau buat akun baru melalui halaman registrasi peserta)_
+
+---
+
+> **Catatan:**  
+> Pastikan folder `public/uploads` dapat ditulis.  
+> Untuk pengiriman email/notifikasi, sesuaikan konfigurasi di `.env`.
+
+---
+
+## 🤝 Kontributor & Sponsor
+
+Terima kasih kepada semua kontributor dan sponsor yang telah mendukung pengembangan Beasiswa Bersama. Ingin berkontribusi? Lihat [Panduan Kontribusi](#).
+
+- [Ayasha95](https://github.com/Ayasha95)
+- [Laravel](https://laravel.com)
+
+---
+
+## 📬 Kontribusi
+
+Silakan buat issue atau pull request untuk perbaikan dan pengembangan fitur. Panduan kontribusi dapat ditemukan di [CONTRIBUTING.md](#).
+
+---
+
+<p align="center">
+  <sub>Copyright &copy; 2024 Beasiswa Bersama. Powered by Laravel.</sub>
+</p>
